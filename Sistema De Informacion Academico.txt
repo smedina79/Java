@@ -1,0 +1,37 @@
+// Sistema de Informacion Academico.
+
+[Administrador]-(Crear Usuarios)
+[Administrador]-(Crea Permisos)
+[Administrador]-(Habilita/Deshabilita Funciones)
+[Usuario-Alumno]-(Registrarse)
+[Usuario-Maestro]-(Registrarse)
+(Registrarse)<(Ingresar Maestro)
+(Registrarse)<(Ingresar Alumno)
+(Ingresar Maestro)>(Menu Maestro)
+(Menu Maestro)<(Asignaturas)
+(Asignaturas)<(Edicion Notas)
+(Menu Maestro)<(Ir a E-Mail)
+(Ir a E-Mail)<(Ver/Enviar Correos)
+(Ingresar Alumno)>(Menu Alumno)
+(Menu Alumno)<(Ir a E-Mail)
+(Menu Maestro)<(Ver Horarios)
+(Menu Alumno)<(Ver Horarios)
+(Menu Alumno)<(Consultar Notas)
+(Consultar Notas)>(Asignaturas Inscritas)
+(Asignaturas Inscritas)<(Consultar Notas Por Asignatura)
+(Menu Alumno)<(Consultar Promedio)
+(Consultar Promedio)<(Promedio Por Semestre)
+(Consultar Promedio)<(Promedio De Carrera)
+(Menu Alumno)<(Cuadrar Horario)
+(Menu Alumno)<(Inscrbir Materias)
+(Menu Alumno)<(Imprimir Recibos de Pago)
+(Menu Alumno)<(Ver Estado de Cuenta)
+(Menu Alumno)<(Evaluar Docentes)
+(Evaluar Docentes)<(Elegir Docente por Asignatura)
+(Menu Alumno)<(Consultar Plan De Estudios)
+(Menu Alumno)<(Ver y Descargar Formatos de Solicitudes)
+(Menu Alumno)<(Cerrar Sesion)
+
+
+
+
